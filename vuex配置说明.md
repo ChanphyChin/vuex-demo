@@ -183,4 +183,6 @@ getter.js
 
 3. mapGetters、mapActions 和 mapState 类似 , mapGetters 一般也写在 computed 中 , mapActions 一般写在 methods 中。
 
+| 2018-2-9更新
+### getter 相当于每个组件中的computed钩子，但是getter是属于state的计算属性，我们可以计算state中某个值，如果发生了变化，那么就会触发我们getter中监听计算这个值的处理方法。
 
